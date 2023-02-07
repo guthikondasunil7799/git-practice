@@ -1,0 +1,78 @@
+Type: AWS::RDS::DBInstance
+Properties: 
+  AllocatedStorage: String
+  AllowMajorVersionUpgrade: Boolean
+  AssociatedRoles: 
+    - DBInstanceRole
+  AutoMinorVersionUpgrade: Boolean
+  AvailabilityZone: String
+  BackupRetentionPeriod: Integer
+  CACertificateIdentifier: String
+  CertificateDetails: 
+    CertificateDetails
+  CertificateRotationRestart: Boolean
+  CharacterSetName: String
+  CopyTagsToSnapshot: Boolean
+  CustomIAMInstanceProfile: String
+  DBClusterIdentifier: String
+  DBClusterSnapshotIdentifier: String
+  DBInstanceClass: String
+  DBInstanceIdentifier: String
+  DBName: String
+  DBParameterGroupName: String
+  DBSecurityGroups: 
+    - String
+  DBSnapshotIdentifier: String
+  DBSubnetGroupName: String
+  DeleteAutomatedBackups: Boolean
+  DeletionProtection: Boolean
+  Domain: String
+  DomainIAMRoleName: String
+  EnableCloudwatchLogsExports: 
+    - String
+  EnableIAMDatabaseAuthentication: Boolean
+  EnablePerformanceInsights: Boolean
+  Endpoint: 
+    Endpoint
+  Engine: String
+  EngineVersion: String
+  Iops: Integer
+  KmsKeyId: String
+  LicenseModel: String
+  ManageMasterUserPassword: Boolean
+  MasterUsername: String
+  MasterUserPassword: String
+  MasterUserSecret: 
+    MasterUserSecret
+  MaxAllocatedStorage: Integer
+  MonitoringInterval: Integer
+  MonitoringRoleArn: String
+  MultiAZ: Boolean
+  NcharCharacterSetName: String
+  NetworkType: String
+  OptionGroupName: String
+  PerformanceInsightsKMSKeyId: String
+  PerformanceInsightsRetentionPeriod: Integer
+  Port: String
+  PreferredBackupWindow: String
+  PreferredMaintenanceWindow: String
+  ProcessorFeatures: 
+    - ProcessorFeature
+  PromotionTier: Integer
+  PubliclyAccessible: Boolean
+  ReplicaMode: String
+  RestoreTime: String
+  SourceDBInstanceAutomatedBackupsArn: String
+  SourceDBInstanceIdentifier: String
+  SourceDbiResourceId: String
+  SourceRegion: String
+  StorageEncrypted: Boolean
+  StorageThroughput: Integer
+  StorageType: String
+  Tags: 
+    - Tag
+  Timezone: String
+  UseDefaultProcessorFeatures: Boolean
+  UseLatestRestorableTime: Boolean
+  VPCSecurityGroups: 
+    - String
